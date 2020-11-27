@@ -1,10 +1,10 @@
-package com.heima.service.Impl;
+package com.itheima.service.Impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.heima.service.Hello;
+import com.itheima.service.HelloService;
 
 @Service
-public class HelloImpl implements Hello {
+public class HelloServiceImpl implements HelloService {
 
     @Override
     public String sayHello(String name) {
